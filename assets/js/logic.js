@@ -11,7 +11,7 @@ const readBlogDataFromLocalStorage = function () {
 
     const data = JSON.parse(stringData);
 
-    return data || [];
+    return data ;
 }
 
 const applyMode = function(mode) {
